@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Project</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        width: 100%;
+        height: 700px;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.8;
+    }
+
+    #box1 {
+        /* display: flex; */
+        position: relative;
+        left: -40%;
+        width: 550px;
+        top: 100px;
+    }
+
+    #box2 {
+        position: relative;
+        width: 550px;
+        top: 25px;
+        left: -15%;
+    }
+
+    #box3 {
+        position: relative;
+        left: -40%;
+        width: 550px;
+        top: 150px;
+    }
+
+    #box4 {
+        position: relative;
+        width: 550px;
+        top: 75px;
+        left: -15%;
+    }
+
+    #box5 {
+        position: relative;
+        width: 550px;
+        top: 200px;
+        left: -40%;
+    }
+
+    #box6 {
+        position: relative;
+        width: 550px;
+        top: 125px;
+        left: -15%;
+    }
+    #box6 input{
+        position: relative;
+        left: 35px;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    h1 {
+        position: relative;
+        left: 65px;
+        top: 55px;
+        text-align: left;
+        font-size: 40px;
+        color: blanchedalmond;
+    }
+
+    input {
+        border: 2px;
+        border-radius: 6px;
+        outline: none;
+        font-size: 16px;
+        width: 25%;
+        margin: 11px auto;
+        padding: 7px;
+        background-color: rgb(219, 243, 183);
+
+    }
+
+    .btn {
+        position: relative;
+        left: -250px;
+        top: 80px;
+        color: white;
+        background: tomato;
+        padding: 5px 3px;
+        font-size: 20px;
+        border: 2px solid white;
+        border-radius: 14px;
+        cursor: pointer;
+    }
+
+    p {
+        color: blanchedalmond;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <img src="med.jpg" alt="med">
+        <h1><b><u>Fill the information below:-</h1>
+        <form>
+            <div id="box1">
+                <P>NAME</P> <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            </div>
+            <div id="box2">
+                <p>AGE</p><input type="text" name="age" id="age" placeholder="Enter Your Age">
+            </div>
+            <div id="box3">
+                <p>GENDER</p><input type="text" name="gender" id="gender" placeholder="Enter Your Gender">
+            </div>
+            <div id="box4">
+                <p>EMAIL</p><input type="email" name="email" id="email" placeholder="Enter Your Email">
+            </div>
+            <div id="box5">
+                <p> PHONE</p><input type="phone" name="phone" id="phone" placeholder="Enter Your Phone">
+            </div>
+            <div id="box6">
+                <p>ADDRESS</p><input type="text" name="address" id="address" placeholder="Enter Your Address">
+
+                <button class="btn">Submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
